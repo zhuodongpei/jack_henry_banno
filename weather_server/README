@@ -1,0 +1,11 @@
+1. Build 
+
+$ cd myserver
+$ sbt
+> jetty:start
+
+2. Run
+Point your browser to 
+http://localhost:8080/getweather/lat/:lat/lon/:lon
+For example:
+http://localhost:8080/getweather/lat/38/lon/-122
